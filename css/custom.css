@@ -1,0 +1,36 @@
+.grid {
+    background: #DDD;
+    width: 1000px;
+  }
+  /* clear fix */
+.grid:after {
+    
+    display: block;
+    clear: both;
+  }
+  
+  /* ---- .grid-item ---- */
+  
+  .grid-item {
+    float: left;
+    width: 480px;
+    height: 100px;
+    background: #C09;
+    border: 2px solid hsla(0, 0%, 0%, 0.5);
+  }
+  
+  .grid-item:hover {
+    background: #C90;
+    cursor: pointer;
+  }
+  
+  .option{
+      float: right;
+
+  }
+
+
+
+
+  
+  

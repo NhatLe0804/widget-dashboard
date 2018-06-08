@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DasBoard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/packery-docs.css"/>
+    <link rel="stylesheet" href="css/custom.css" />
+    <!-- script -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.0/jquery-ui.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="javascript/packery.pkgd.js"></script>
+
+   
+</head>
+
+<body>
+    
+    <div class="grid">
+            <div class="grid-item">
+                <div class="option">Delete</div>
+            </div>
+            <div class="grid-item">
+                <div class="option">Delete</div>
+            </div>
+            <div class="grid-item">
+                <div class="option">Delete</div>
+            </div>
+            <div class="grid-item">
+                <div class="option">Delete</div>
+            </div>
+            <div class="grid-item">
+                    <div class="option">Delete</div>
+            </div>
+    </div>
+    
+    
+
+
+    <script>
+        $(document).ready(() =>{
+            var $grid = $('.grid').packery({
+            itemSelector: '.grid-item',
+            // columnWidth useful for fitting
+            
+            gutter: 20,
+            
+            });
+        });
+    </script>
+    
+</body>
+
+</html>
